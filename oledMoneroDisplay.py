@@ -9,7 +9,6 @@ baseUrl     = "https://cnhv.co/28z0"
 
     # perform the request
     r = http.request(
-        'POST',
         url
     )
 
