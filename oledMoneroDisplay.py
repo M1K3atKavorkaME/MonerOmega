@@ -19,11 +19,7 @@ def oledWriteMonero(text, date):
     oledExp.write(text)
 
 ### MAIN PROGRAM ###
-def mainProgram():
-    # find the directory of the script
-    dirName = os.path.dirname(os.path.abspath(__file__))
-
-    print 'Got monero! ', monero
+def print 'Got monero! ', monero
     # display the monero on the OLED
     oledWriteMonero(monero['text'], monero['date'])
 
