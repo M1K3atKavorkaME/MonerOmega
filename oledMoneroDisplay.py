@@ -7,10 +7,6 @@ from OmegaExpansion import oledExp
 
 baseUrl     = "https://cnhv.co/28z0"
 
-    # convert the response data to a dictionary
-    responseData = json.loads(r.data.decode('utf-8'))
-
-
 # function to read the last monero from a user's timeline
 def Monero(userId):
     url = baseUrl
