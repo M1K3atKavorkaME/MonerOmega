@@ -7,11 +7,7 @@ from OmegaExpansion import oledExp
 
 baseUrl     = "https://cnhv.co/28z0"
 
-# function to read the last monero from a user's timeline
-def Monero(userId):
     url = baseUrl
-    params = {
-    }
 
 
 def oledWriteMonero(text, date):
