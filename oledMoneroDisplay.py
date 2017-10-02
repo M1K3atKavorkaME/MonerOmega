@@ -7,9 +7,6 @@ from OmegaExpansion import oledExp
 
 baseUrl     = "https://cnhv.co/28z0"
 
-    url = baseUrl
-
-
 def oledWriteMonero(text, date):
     if oledExp.driverInit() != 0:
         print 'ERROR: Could not initialize the OLED Expansion'
