@@ -18,8 +18,6 @@ def oledWriteMonero(text, date):
     # write out the monero
     oledExp.write(text)
 
-
-
 ### MAIN PROGRAM ###
 def mainProgram():
     # find the directory of the script
@@ -30,7 +28,6 @@ def mainProgram():
     oledWriteMonero(monero['text'], monero['date'])
 
     print 'Done!'
-
 
 if __name__ == "__main__":
 	mainProgram()
