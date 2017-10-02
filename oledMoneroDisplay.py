@@ -7,11 +7,6 @@ from OmegaExpansion import oledExp
 
 baseUrl     = "https://cnhv.co/28z0"
 
-    # perform the request
-    r = http.request(
-        url
-    )
-
     # convert the response data to a dictionary
     responseData = json.loads(r.data.decode('utf-8'))
 
