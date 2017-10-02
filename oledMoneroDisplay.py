@@ -17,16 +17,6 @@ def Monero(userId):
     params = {
     }
 
-    # create the request headers
-    headers = {
-    }
-
-    # execute the GET request
-    r = http.request(
-        'GET',
-        url
-    )
-
 
 def oledWriteMonero(text, date):
     if oledExp.driverInit() != 0:
